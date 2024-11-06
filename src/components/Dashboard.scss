@@ -1,0 +1,105 @@
+.dashboard-container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filters-panel {
+    width: 250px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filters-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .filters-header h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .clear-button {
+    font-size: 0.9rem;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+  }
+  
+  .clear-button:hover {
+    color: #0056b3;
+  }
+  
+  .filter-select {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .select-category,
+  .select-product {
+    width: 100%;
+  }
+  
+  .run-report-button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .run-report-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .run-report-button:not(:disabled):hover {
+    background-color: #0056b3;
+  }
+  
+  .chart-container {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .chart-footer {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
